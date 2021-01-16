@@ -26,7 +26,7 @@ vid = cv2.VideoCapture(0)
 vid.set(cv2.CAP_PROP_FRAME_WIDTH, 400)
 vid.set(cv2.CAP_PROP_FRAME_HEIGHT, 400)
 print("hey2")
-labels = pd.read_csv(r'jester-v1-labels.csv', header= None)
+# labels = pd.read_csv(r'jester-v1-labels.csv', header= None)
 buffer = []
 predicte_value = 0
 final_label = ""
